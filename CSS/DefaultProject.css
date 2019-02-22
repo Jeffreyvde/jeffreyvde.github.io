@@ -1,0 +1,397 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 60px;
+  color: #d56724;
+  font-family: "Kosugi Maru", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  line-height: 22px;
+  height: auto;
+  color: #373648;
+  background-color: #eeefe5;
+}
+
+.bigSpace {
+  height: 100px;
+  width: 100%;
+  clear: both;
+}
+
+.smallSpace {
+  height: 25px;
+  width: 100%;
+  clear: both;
+  background-color: #eeefe5;
+}
+
+#banner {
+  height: 600px;
+  background-image: url("../Images/Repeating.png");
+  background-position: center;
+  background-repeat: repeat;
+  text-align: center;
+}
+
+#banner h1 {
+  text-align: center;
+  padding-top: 250px;
+  color: white;
+  font-family: "Kosugi Maru", sans-serif;
+}
+
+#intro {
+  width: 100%;
+  background-color: #dedecd;
+  padding: 80px 0px 107px 0px;
+  border-top: 1px solid #f4f5ee;
+}
+
+#introText {
+  background-color: #dedecd;
+  width: 94%;
+  max-width: 900px;
+  margin: 0px auto;
+  font-size: 1.75em;
+  color: #666666;
+  text-align: center;
+}
+
+.InfoSection {
+  width: 100%;
+  height: 440px;
+  background-position: center center;
+}
+
+.ProjectInfo {
+  width: 100%;
+  height: 440px;
+  background-position: center center;
+  background-color: white;
+}
+
+.ProjectImage {
+  background-color: white;
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: right;
+}
+
+.ProjectImage img {
+  height: 100%;
+  width: 100%;
+  max-width: 960px;
+  float: right;
+}
+
+.ProjectText {
+  float: left;
+  padding: 70px 50px 70px 50px;
+  font-size: 1em;
+  line-height: 23px;
+  text-align: left;
+  color: #888888;
+  width: 36%;
+  height: 300px;
+  max-width: 860px;
+  font-size: 20px;
+}
+
+.ProjectTextRight {
+  background-color: white;
+  width: 38%;
+  height: 300px;
+  padding: 70px 50px 70px 50px;
+  font-size: 1em;
+  line-height: 23px;
+  text-align: left;
+  color: #888888;
+  max-width: 860px;
+  font-size: 20px;
+  float: right;
+}
+
+.ProjectImageRight {
+  background-color: white;
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+
+.ProjectImageRight img {
+  height: 100%;
+  width: 100%;
+  max-width: 960px;
+  float: left;
+}
+
+/*#region Footer*/
+footer {
+  width: 100%;
+  background-color: #dedecd;
+  border-top: 1px solid #f4f5ee;
+  height: 250px;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.smallSpace {
+  height: 25px;
+  width: 100%;
+  clear: both;
+  background-color: #eeefe5;
+}
+
+.center-div {
+  margin: 0 auto;
+  width: 550px;
+  color: #888888;
+  font-family: abel, sans-serif;
+  font-size: 1.25em;
+}
+
+.center-div ul {
+  list-style-type: none;
+  color: #888888;
+  font-family: abel, sans-serif;
+  font-size: 1em;
+  line-height: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.center-div ul h1 {
+  font-size: 1.6666666666666666em;
+}
+
+.iconBox {
+  width: 56px;
+  height: 56px;
+  float: left;
+  margin-left: 40%;
+  text-align: center;
+  font-size: 0.9375em;
+  color: #555555;
+  margin-top: -45px;
+  line-height: 25px;
+}
+
+.iconBoxlast {
+  width: 56px;
+  height: 56px;
+  float: left;
+  text-align: center;
+  font-size: 0.9375em;
+  color: #555555;
+  margin-top: -45px;
+  line-height: 25px;
+  padding-left: 10px;
+}
+
+.iconCircle {
+  border: 2px solid #d56724;
+  color: #d56724;
+  width: 56px;
+  height: 40px;
+  text-align: center;
+  padding-top: 16px;
+  margin-top: 50px;
+  -moz-border-radius: 56px;
+  -webkit-border-radius: 56px;
+  border-radius: 56px;
+  -khtml-border-radius: 56px;
+  text-align: center;
+}
+
+.iconCircle i {
+  margin-top: -40px;
+  font-size: 1em;
+}
+
+.iconCircle:hover {
+  background-color: #d56724;
+  color: white;
+}
+
+.ScalableImage {
+  height: 100%;
+  width: 100%;
+  max-width: 960px;
+  float: right;
+  background-size: 960px, 440px;
+  background-position: center;
+}
+
+.ScalableImageRight {
+  height: 100%;
+  width: 100%;
+  max-width: 960px;
+  float: left;
+  background-size: 960px, 440px;
+  background-position: center;
+}
+
+/*#endregion Footer*/
+
+@media screen and (max-width: 1900px) {
+  .ProjectTextRight {
+    float: left;
+    padding: 70px 50px 70px 50px;
+    font-size: 1em;
+    line-height: 23px;
+    text-align: left;
+    color: #888888;
+    width: 36%;
+    height: 300px;
+    max-width: 860px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #aboutWrapper {
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .center-div {
+    width: 100%;
+  }
+
+  .iconBox {
+    margin-left: calc((100% - 112px) / 2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    height: 400px;
+  }
+  .cvCircle img {
+    max-width: 82px;
+    padding-top: 25px;
+  }
+
+  .ProjectImage {
+    width: 100%;
+    background-image: no-rpeat;
+    background-size: contain;
+  }
+
+  .ProjectText {
+    float: left;
+    padding: 70px 7% 70px 7%;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+    color: #888888;
+    width: 86%;
+  }
+
+  .ProjectImageRight {
+    width: 100%;
+    background-size: auto;
+  }
+
+  .ProjectTextRight {
+    float: left;
+    padding: 70px 7% 70px 7%;
+    font-size: 1em;
+    line-height: 23px;
+    text-align: left;
+    color: #888888;
+    width: 86%;
+  }
+}

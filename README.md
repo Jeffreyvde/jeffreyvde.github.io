@@ -1,4 +1,3 @@
-# jeffreyvde.github.io
-Portfolio Website
+# Website
 
-This is my portfolio website
+Portfolio Website

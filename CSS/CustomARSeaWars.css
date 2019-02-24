@@ -1,11 +1,11 @@
-#playStore{
-    background-image: url("../Images/ARSeaWarsCover.jpg");
+#playStore {
+  background-image: url("../Images/ARSeaWars/ARSeaWarsCover.jpg");
 }
 
-#AugmentedReality{
-    background-image: url("../Images/ARSeaWarsAR.jpg");
+#AugmentedReality {
+  background-image: url("../Images/ARSeaWars/ARSeaWarsAR.jpg");
 }
 
-#Multiplayer{
-    background-image: url("../Images/ARSeaWarsMultiplayer.jpeg");
+#Multiplayer {
+  background-image: url("../Images/ARSeaWars/ARSeaWarsMultiplayer.jpeg");
 }

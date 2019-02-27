@@ -340,22 +340,67 @@ body {
   width: 160px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.row a:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-family: "Bree Serif", serif;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 40px;
+}
+
 #Project1 {
   background-color: #e1e4b3;
   background-image: url("../Images/ARSeaWars/ARSeaWars.jpg");
   background-size: cover;
 }
 
+#Project1 .overlay {
+  /* rgba(225, 228, 179, 0.5) */
+  background: #e1e4b3;
+}
+
 #Project2 {
-  background-color: #bdcbb6;
   background-image: url("../Images/SmoothEvents/SmoothEvents1.png");
   background-size: cover;
   background-position: top;
 }
 
+#Project2 .overlay {
+  /* rgba(189, 203, 182, 1) */
+  background: #bdcbb6;
+}
+
 #Project3 {
   background-color: #d76713;
 }
+
+#Project3 .overlay {
+  background: rgba(215, 103, 19, 0.5);
+}
+
 
 #Project4 {
   background-color: #813107;

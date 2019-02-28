@@ -384,8 +384,10 @@ body {
 
 #Project2 {
   background-image: url("../Images/SmoothEvents/SmoothEvents1.png");
-  background-size: cover;
-  background-position: top;
+  background-size: contain;
+  background-position: center;
+  background-color: #bdcbb6;
+  background-repeat: no-repeat;
 }
 
 #Project2 .overlay {

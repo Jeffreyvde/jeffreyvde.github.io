@@ -378,14 +378,13 @@ body {
 }
 
 #Project1 {
-  background-color: #e1e4b3;
   background-image: url("../Images/ARSeaWars/ARSeaWars.jpg");
   background-size: cover;
 }
 
 #Project1 .overlay {
   /* rgba(225, 228, 179, 0.5) */
-  background-color: #e1e4b3;
+  background-color: rgba(225, 228, 179, 0.5);
 }
 
 #Project2 {
@@ -398,7 +397,7 @@ body {
 
 #Project2 .overlay {
   /* rgba(189, 203, 182, 1) */
-  background-color: #bdcbb6;
+  background: rgba(189, 203, 182, .5);
 }
 
 #Project3 {
@@ -409,13 +408,8 @@ body {
 }
 
 #Project3 .overlay {
-  background-color: #d76713;
-}
-
-#Project3 .overlay {
   background: rgba(215, 103, 19, 0.5);
 }
-
 
 #Project4 {
   background-color: #813107;

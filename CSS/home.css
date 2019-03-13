@@ -296,13 +296,19 @@ body {
   clear: both;
 }
 
-.cvWrapper {
-  margin-top: -95px;
-  text-align: center;
-  padding-bottom: 70px;
-  padding-top: 50px;
+#cvWrapper {
+  height: 50px;
   width: 100%;
+  position: relative;
+  background-color: white;
+}
+
+.cvBackground {
+  height: 50px;
   position: absolute;
+  width: 100%;
+  top: 0px;
+  background-color: #eeefe5;
 }
 
 .cvCircle {
@@ -320,7 +326,7 @@ body {
 
 .cvCircle img {
   max-width: 82px;
-  margin-top: -20px;
+  margin-top: 10px;
 }
 
 .ProjectPage {
@@ -535,9 +541,10 @@ footer {
 }
 
 /*#endregion Footer*/
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
   .aboutWrapper {
-    overflow: overlay;
+    overflow-y: overlay;
+    padding-bottom: 40px;
   }
 
   .aboutWrapper h1 {
@@ -546,12 +553,6 @@ footer {
 
   footer {
     overflow: overlay;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #aboutWrapper {
-    height: 550px;
   }
 }
 
